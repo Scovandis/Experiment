@@ -14,6 +14,15 @@
         android:background="@color/purple_500"
         android:paddingVertical="88dp">
 
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_launcher" />
+
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tvTextAnimate"
             android:layout_width="wrap_content"
@@ -68,60 +77,60 @@
 
     <!--        -->
 
-    <!--&lt;!&ndash;                <androidx.appcompat.widget.LinearLayoutCompat&ndash;&gt;-->
-    <!--&lt;!&ndash;            android:layout_width="0dp"&ndash;&gt;-->
-    <!--&lt;!&ndash;            android:orientation="vertical"&ndash;&gt;-->
-    <!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
-    <!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
-    <!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/imgView"&ndash;&gt;-->
-    <!--&lt;!&ndash;            app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
-    <!--&lt;!&ndash;            android:layout_height="wrap_content">&ndash;&gt;-->
-    <!--&lt;!&ndash;            <com.google.android.material.textview.MaterialTextView&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:id="@+id/tvTextAnimate"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:ellipsize="end"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:maxLines="1"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--                <androidx.appcompat.widget.LinearLayoutCompat-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:orientation="vertical"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toEndOf="@+id/imgView"-->
+    <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--            android:layout_height="wrap_content">-->
+    <!--            <com.google.android.material.textview.MaterialTextView-->
+    <!--                android:id="@+id/tvTextAnimate"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:ellipsize="end"-->
+    <!--                android:maxLines="1"-->
+    <!--                android:layout_height="wrap_content"-->
 
-    <!--&lt;!&ndash;                android:layout_marginHorizontal="8dp"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:text="Hiks,, POS anda akan berakhir 1 hari lagi"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:textColor="@color/white"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:textSize="20dp" />&ndash;&gt;-->
+    <!--                android:layout_marginHorizontal="8dp"-->
+    <!--                android:text="Hiks,, POS anda akan berakhir 1 hari lagi"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="20dp" />-->
 
-    <!--&lt;!&ndash;&lt;!&ndash;            <com.google.android.material.textview.MaterialTextView&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                android:id="@+id/textAnimateView"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                android:ellipsize="end"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                android:maxLines="1"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                app:layout_constraintTop_toTopOf="parent"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                app:layout_constraintStart_toEndOf="@+id/imgView"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                android:layout_marginHorizontal="8dp"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                android:text="ViewParent"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                android:textColor="@color/white"&ndash;&gt;&ndash;&gt;-->
-    <!--&lt;!&ndash;&lt;!&ndash;                android:textSize="20dp" />&ndash;&gt;&ndash;&gt;-->
-
-
-    <!--&lt;!&ndash;            <com.google.android.material.textview.MaterialTextView&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:id="@+id/tvTextAnimateDown"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:ellipsize="end"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:maxLines="1"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:visibility="gone"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
-    <!--&lt;!&ndash;                app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
-    <!--&lt;!&ndash;                app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
-    <!--&lt;!&ndash;                app:layout_constraintStart_toEndOf="@+id/imgView"&ndash;&gt;-->
-    <!--&lt;!&ndash;                app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:layout_marginHorizontal="8dp"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:text="Buruan lakukan perpanjangan"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:textColor="@color/white"&ndash;&gt;-->
-    <!--&lt;!&ndash;                android:textSize="20dp" />&ndash;&gt;-->
+    <!--            <com.google.android.material.textview.MaterialTextView-->
+    <!--                android:id="@+id/textAnimateView"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:ellipsize="end"-->
+    <!--                android:maxLines="1"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                app:layout_constraintTop_toTopOf="parent"-->
+    <!--                app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                app:layout_constraintStart_toEndOf="@+id/imgView"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                android:layout_marginHorizontal="8dp"-->
+    <!--                android:text="ViewParent"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="20dp" />-->
 
 
-    <!--&lt;!&ndash;        </androidx.appcompat.widget.LinearLayoutCompat>&ndash;&gt;-->
+    <!--            <com.google.android.material.textview.MaterialTextView-->
+    <!--                android:id="@+id/tvTextAnimateDown"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:ellipsize="end"-->
+    <!--                android:maxLines="1"-->
+    <!--                android:visibility="gone"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                app:layout_constraintTop_toTopOf="parent"-->
+    <!--                app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                app:layout_constraintStart_toEndOf="@+id/imgView"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                android:layout_marginHorizontal="8dp"-->
+    <!--                android:text="Buruan lakukan perpanjangan"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="20dp" />-->
+
+
+    <!--        </androidx.appcompat.widget.LinearLayoutCompat>-->
     <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
 
 </RelativeLayout>
