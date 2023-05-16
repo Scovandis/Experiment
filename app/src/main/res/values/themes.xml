@@ -13,4 +13,9 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="CustomDialogAnimation" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <!--        <item name="android:windowEnterAnimation">@anim/enter_window</item>-->
+        <!--        <item name="android:windowExitAnimation">@anim/enter_window</item>-->
+    </style>
 </resources>
