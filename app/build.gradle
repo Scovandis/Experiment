@@ -50,38 +50,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'com.google.code.gson:gson:2.9.1'
     implementation 'io.insert-koin:koin-android:3.1.4'
-    implementation 'com.jakewharton.timber:timber:5.0.1'
-    implementation 'com.github.yuriy-budiyev:code-scanner:2.3.2'
-    implementation "com.bugsnag:bugsnag-android:5.+"
-    implementation 'com.github.skydoves:powerspinner:1.2.4'
     implementation 'com.thedeanda:lorem:2.1'
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
-    implementation 'org.mariuszgromada.math:MathParser.org-mXparser:4.4.2'
-    implementation 'com.github.stealthcopter:AndroidNetworkTools:0.4.5.3'
-
-    // Activity & Fragment KTX
-    implementation 'androidx.activity:activity-ktx:1.6.1'
-    implementation 'androidx.fragment:fragment-ktx:1.5.5'
-
-    // livedata
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
-    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
-
-    // shared preferences
-    implementation 'com.chibatching.kotpref:kotpref:2.13.1'
-    implementation 'com.chibatching.kotpref:enum-support:2.13.1'
-    implementation 'com.chibatching.kotpref:gson-support:2.13.1'
-
-    // Glide
-    implementation 'com.github.bumptech.glide:glide:4.12.0'
-    kapt 'com.github.bumptech.glide:compiler:4.12.0'
-
-    //pin
-    implementation 'com.github.poovamraj:PinEditTextField:1.2.6'
-
-    //image compress
-    implementation 'id.zelory:compressor:3.0.1'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
