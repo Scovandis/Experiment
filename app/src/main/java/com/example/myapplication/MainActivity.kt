@@ -32,8 +32,17 @@ class MainActivity : AppCompatActivity() {
 
         val sumOfGenerate = sum(generateData(), 0)
         Log.i("RESCUSIVE", "last : $sumOfGenerate")
+
+        val factorialRecursive = factorialRecursive(generateData(), 0)
+        Log.i("RECURSIVE", "factorial : $factorialRecursive")
     }
 
+    fun factorialRecursive(args: ArrayList<ParentModel>,index : Int): Int{
+        /*Log.i("RECURSIVE", "loop : ${Gson().toJson(args)} \n index : $index")
+        return if (index >= 5) args.size
+        else (factorialRecursive(args, index + 1) + args[index + 1])*/
+        return 0
+    }
     fun sum(args: Array<Int>, index: Int): Int {
         Log.i("RESCUSIVE", "sumof args : ${args.toList()} \n index : $index")
         return if (index >= 4) 5
