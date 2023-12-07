@@ -37,6 +37,7 @@ class MainAdapter(private val list: ArrayList<String>) :
             for (i in fromPosition downTo toPosition + 1) {
                 Log.i("MOVED", "toDown\nfromPos : $fromPosition\ntoPos : $toPosition")
                 Collections.swap(list, i, i - 1)
+                /*loopin drag and drop*/
             }
         }
 //        Collections.swap(list, fromPosition, toPosition)
